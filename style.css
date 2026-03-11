@@ -72,6 +72,42 @@ margin-left: 45px;
     border: none;
     background-color: white;
 }
+.feature{
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(247, 248, 250, 1);
+}
+.work{
+    width: 440px;
+    height: 100px;
+    /* background-color: aqua; */
+    padding-top: 55px;
+    margin-left: 35%;
+}
+.work h1{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    margin-top: -10px;
+}
+.cards{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 15px;
+    width: 620px;
+    height: 59%;
+    /* background-color: blueviolet; */
+}
+.c1{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 200px;
+    height: 235px;
+    background-color: lightgray;
+
+}
 @media(max-width:500px){
     .menu{
         display: none;
