@@ -108,7 +108,29 @@ margin-left: 45px;
     background-color: lightgray;
 
 }
+.sec-3{
+    width: 100%;
+    height: 500px;
+    background-image: url(./01\ copy.png);
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    width: 500px;
+    height: 300px;
+    /* background-color: yellow; */
+}
+.text h1{
+   text-align: center;
+   font-family: 'Roboto',sans-serif;
+}
 @media(max-width:500px){
+   .sec-3{
+    margin-top: 500px;
+   }
     .menu{
         display: none;
 }
