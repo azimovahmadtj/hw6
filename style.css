@@ -111,8 +111,19 @@ margin-left: 45px;
 @media(max-width:500px){
     .menu{
         display: none;
-
-    }
+}
+.feature{
+    width: 100%;
+}
+.cards{
+    width: 100%;
+    margin-left: 100px;
+    flex-direction: column;
+   
+}
+.work{
+    margin-left: 0px;
+}
     .sluzhba{
         display: none;
     }
